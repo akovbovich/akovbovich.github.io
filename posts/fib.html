@@ -7,12 +7,28 @@
   </head>
   <body>
     <div id="page">
+      <div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      
+	<div class="nav-collapse">
+	  <ul class="nav">
+	    <li class="&lt;navbar-home/&gt;"><a href="https://akovbovich.github.io/index.html">На главную</a></li>
+	  </ul>
+	  <div class="nav pull-right">  </div>
+	</div>
+      
+    </div>
+  </div>
+</div>
+
       <div id="header">
         <div class="page-title">Fibonacci ex.</div>
       </div>
       <div class="date">June 9, 2015</div>
       
   <p>Code preview</p>
+
   <pre class="code-ocaml"><div><span class="hl kwa">let</span><span class="hl std"> </span><span class="">fib</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> =
   </span><span class="hl kwa">let</span><span class="hl std"> </span><span class="hl kwa">rec</span><span class="hl std"> </span><span class="">fib_aux</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> </span><span class="">a</span><span class="hl std"> </span><span class="">b</span><span class="hl std"> =
   </span><span class="hl kwb">match</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> </span><span class="hl kwb">with</span><span class="hl std">
@@ -20,6 +36,7 @@
   | </span><span class="hl num">_</span><span class="hl std"> -&gt; </span><span class="">fib_aux</span><span class="hl std"> (</span><span class="">n</span><span class="hl num">-1</span><span class="hl std">) </span><span class="">b</span><span class="hl std"> (</span><span class="">a</span><span class="hl std">+</span><span class="">b</span><span class="hl std">)
   </span><span class="hl kwa">in</span><span class="hl std">
   </span><span class="">fib_aux</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> </span><span class="hl num">0</span><span class="hl std"> </span><span class="hl num">1</span><span class="hl std">;;</span></div></pre>
+
 
     </div>
   </body>
