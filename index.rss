@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<rss version="2.0">
+       <channel>
+         <title>Привет, Мир! : My blog</title>
+         <link>https://akovbovich.github.io</link>
+         <description></description>
+         <managingEditor>akovbovich@gmail.com</managingEditor>
+         <pubDate>09 Jun 2015 18:45:53 +0000</pubDate><lastBuildDate>09 Jun 2015 19:13:30 +0000</lastBuildDate>
+         <generator>Stog</generator>
+         <div class="img"><img class="img" src="" width=""/><div class="legend"><url>https://akovbovich.github.io/logo.png</url>
+           <title>Привет, Мир!</title><link>https://akovbovich.github.io</link>
+         </div></div>
+         <item>
+      <title>Fibonacci ex.</title>
+      <link>https://akovbovich.github.io/posts/fib.html</link>
+      <description>
+  &lt;p&gt;Code preview&lt;/p&gt;
+  &lt;pre class=&quot;code-ocaml&quot;&gt;&lt;div&gt;&lt;span class=&quot;hl kwa&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; =
+  &lt;/span&gt;&lt;span class=&quot;hl kwa&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hl kwa&quot;&gt;rec&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;fib_aux&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; =
+  &lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;
+  | &lt;/span&gt;&lt;span class=&quot;hl num&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; -&amp;gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;
+  | &lt;/span&gt;&lt;span class=&quot;hl num&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; -&amp;gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;fib_aux&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;hl num&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;)
+  &lt;/span&gt;&lt;span class=&quot;hl kwa&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;&quot;&gt;fib_aux&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hl num&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;hl std&quot;&gt;;;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
+</description>
+      <pubDate>09 Jun 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://akovbovich.github.io/posts/fib.html</guid>
+    </item>
+       </channel>
+     </rss>

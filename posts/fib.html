@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Привет, Мир! : Fibonacci ex.</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <link href="https://akovbovich.github.io/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        <div class="page-title">Fibonacci ex.</div>
+      </div>
+      <div class="date">June 9, 2015</div>
+      
+  <p>Code preview</p>
+  <pre class="code-ocaml"><div><span class="hl kwa">let</span><span class="hl std"> </span><span class="">fib</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> =
+  </span><span class="hl kwa">let</span><span class="hl std"> </span><span class="hl kwa">rec</span><span class="hl std"> </span><span class="">fib_aux</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> </span><span class="">a</span><span class="hl std"> </span><span class="">b</span><span class="hl std"> =
+  </span><span class="hl kwb">match</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> </span><span class="hl kwb">with</span><span class="hl std">
+  | </span><span class="hl num">0</span><span class="hl std"> -&gt; </span><span class="">a</span><span class="hl std">
+  | </span><span class="hl num">_</span><span class="hl std"> -&gt; </span><span class="">fib_aux</span><span class="hl std"> (</span><span class="">n</span><span class="hl num">-1</span><span class="hl std">) </span><span class="">b</span><span class="hl std"> (</span><span class="">a</span><span class="hl std">+</span><span class="">b</span><span class="hl std">)
+  </span><span class="hl kwa">in</span><span class="hl std">
+  </span><span class="">fib_aux</span><span class="hl std"> </span><span class="">n</span><span class="hl std"> </span><span class="hl num">0</span><span class="hl std"> </span><span class="hl num">1</span><span class="hl std">;;</span></div></pre>
+
+    </div>
+  </body>
+</html>
